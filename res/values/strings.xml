@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ONE MyApplr</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">ONE 注 册</string>
+    <string name="title_activity_login">ONE</string>
+    <string name="title_activity_send">ONE 发 送</string>
+    <string name="title_activity_viewer">ONE Message</string>
+    <string name="title_activity_test">ONE 消 息</string>
+    <string name="title_activity_comment">ONE 评 论</string>
+    <string name="colon"> : </string>
+    <string name="et_comment">说些什么吧</string>
+    <string name="bt_comment">评 论</string>
+    <string name="login_status_message">正在登录……</string>
+    <string name="loginhint">欢迎登录 </string>
+    <string name="login_username">请输入用户名</string>
+    <string name="login_password">请输入密码</string>
+    <string name="bt_login">登 录</string>
+    <string name="toRegister">注 册</string>
+    <string name="register_status_message">正在注册……</string>
+    <string name="et_username">请输入用户名</string>
+    <string name="et_password">请输入密码</string>
+    <string name="welcome">欢迎注册 ^_^</string>
+    <string name="bt_register">注 册</string>
+    <string name="login_term">通过登录，即表示接受ONE公司的<b><u>服务条款</u></b>和<b><u>隐私条款</u></b></string>
+    <string name="register_term">已阅读并同意ONE公司的<b><u>服务条款</u></b>和<b><u>隐私条款</u></b></string>
+    <string name="title_activity_www">WwwActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_query">QueryActivity</string>
+    <string name="title_activity_follow">FollowActivity</string>
+    <string name="title_activity_to_follow">ToFollowActivity</string>
+    <string name="title_activity_sliding">SlidingActivity</string>
+    <string name="yi">ONE</string>
+
+</resources>

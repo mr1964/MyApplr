@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".TestActivity" >
+    
+    
+    <!-- 标题栏 -->
+    <LinearLayout 
+		android:background="@drawable/title"	
+		android:orientation="horizontal"	
+	    android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/title_menu_button"
+            android:src="@drawable/settings"/>
+            
+        
+	    <TextView 
+	        android:id="@+id/bar_title_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:paddingBottom="4dp"
+	        android:layout_marginRight="48dp"
+	
+	        
+	        android:shadowColor="#ff000000"
+		    android:shadowDx="2"
+		    android:shadowDy="2"
+		    android:shadowRadius="1"
+	        
+	        android:text="ONE"
+	        android:textColor="#FFFFFF"
+	        android:textSize="36sp"
+	        android:textStyle="bold"
+	        android:typeface="serif" />
+	    
+	       
+	</LinearLayout>  
+ 
+    <com.laohuai.appdemo.customui.ui.MyListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="#CCCCCC"
+        android:divider="#FF6666"
+       />
+   
+
+	
+</LinearLayout>

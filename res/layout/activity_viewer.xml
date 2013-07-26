@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/ll_viewer"
+    tools:context=".TestActivity" >
+
+    <!-- 标题栏 -->
+    <LinearLayout 
+        android:background="@drawable/title"        
+        android:orientation="horizontal"
+	    android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageView 
+            android:layout_width="48dp"
+            android:id="@+id/back_main"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_arrow"/>
+        
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:paddingBottom="4dp"
+	        android:layout_marginRight="48dp"
+	
+	        
+	        android:shadowColor="#ff000000"
+		    android:shadowDx="2"
+		    android:shadowDy="2"
+		    android:shadowRadius="1"
+	        
+	        android:text="ONE"
+	        android:textColor="#FFFFFF"
+	        android:textSize="36sp"
+	        android:textStyle="bold"
+	        android:typeface="serif" />
+	</LinearLayout> 
+    
+    <ListView 
+        android:id="@+id/viewerListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="#CCCCCC"
+        android:divider="#FF6666"
+        ></ListView>
+
+</LinearLayout>

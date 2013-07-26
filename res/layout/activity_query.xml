@@ -1,0 +1,80 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:id="@+id/tl_query"
+    tools:context=".QueryActivity" >
+    
+    <!-- 标题栏 -->
+    <LinearLayout 
+        android:background="@drawable/title"        
+        android:orientation="horizontal"
+	    android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <ImageView 
+            android:layout_width="48dp"
+            android:id="@+id/back_query"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_arrow"/>
+        
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:paddingBottom="4dp"
+	        android:layout_marginRight="48dp"
+	
+	        
+	        android:shadowColor="#ff000000"
+		    android:shadowDx="2"
+		    android:shadowDy="2"
+		    android:shadowRadius="1"
+	        
+	        android:text="ONE"
+	        android:textColor="#FFFFFF"
+	        android:textSize="36sp"
+	        android:textStyle="bold"
+	        android:typeface="serif" />
+	</LinearLayout>      
+
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText 
+            android:id="@+id/et_query"
+            android:background="@drawable/message_style"
+			android:layout_margin="5dp"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:hint="搜索 Messages"/>
+        <Button 
+            android:id="@+id/bt_query"
+            android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/button_login_style"
+	        android:layout_gravity="right"
+	        android:textSize="18sp"
+	        android:layout_margin="5dp"
+	        android:padding="10dp"
+	        android:textColor="#FFFFFF"
+            android:text="搜索"/>
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:divider="@color/background"
+            android:layout_height="wrap_content"
+            android:id="@+id/query_listview">         
+        </ListView>
+    </TableRow>
+    
+</TableLayout>
